@@ -3,6 +3,7 @@ from flask import Flask, render_template, redirect, request, jsonify
 import time
 import random
 import json
+from recommendation import recommender_videos
 
 root_path = os.path.dirname((os.path.dirname(__file__)))
 sys.path.append(root_path)
@@ -18,13 +19,35 @@ def default():
 
 
 
-@app.route('/get/dataframe', methods=['GET'])
+@app.route('/get/recommendation', methods=['GET'])
 def get(): 
-    path = root_path + "\\Reto_tripulaciones\\data_users.json" 
-    #direction to where json is saved.
+    
+  
 
-    return open_json(path)
+    if 'mood' in request.args:
+        mood = int(request.args['mood'])
+    else: 
+        return "This is a message of error: Missing argument: mood"
+    if 'activity_pref' in request.args.to_dict(flat=False):   
+        pref = []
+        for elem in (request.args.to_dict(flat=False)['activity_pref']):
+            pref.append(str(elem))
+    else: 
+        return "This is a message of error: Missing argument: activity_pref"
+
+    if 'liked_videos' in request.args:
+        liked_vid = []
+        for elem in (request.args.to_dict(flat=False)['liked_videos']):
+            liked_vid.append(str(elem))
+
+    else: 
         
+        return "This is a message of error: Missing argument: liked_videos"
+
+    vid = recommender_videos(mood=mood, activity_pref=pref, liked_videos=liked_vid)
+
+    return vid
+         
 
 
 def main():

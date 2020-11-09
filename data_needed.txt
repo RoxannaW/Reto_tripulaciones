@@ -1,0 +1,39 @@
+Data we will need:
+
+- Name of the user
+- Preffered technique to divide workday -> provide 3 options: Pomodoro, 52/17*, personalised. We will show 52/17 in demonstration.
+- Number of workhours
+- Preferred time of lunch 
+- Duration of lunch
+- Things the user likes to do:
+    8 categories**:
+    - Workout <
+    - Meditation < 
+    - Stretching
+    - Educational videos / Ted Talks  (Not sure how to call it.)  <
+    - Short Movie/videos <
+    - Siesta <
+    - Reading
+    - Podcasts
+
+*Have to think of another name. 
+**categories with < sign, we will choose for demonstration.
+
+- Idea of video preferences:
+    We will propose 2 videos of each category available for youtube videos:
+    Workout: -https://www.youtube.com/watch?v=PWEdJRRndkQ
+             -https://www.youtube.com/watch?v=tAUf7aajBWE
+             -https://www.youtube.com/watch?v=6XpGQ2EhfUQ
+    Medidation: - https://www.youtube.com/watch?v=inpok4MKVLM
+                - https://www.youtube.com/watch?v=X7iBnp8T6nY
+                - https://www.youtube.com/watch?v=OCorElLKFQE
+    Stretching: -https://www.youtube.com/watch?v=iz-IXKMF0G4
+                - https://www.youtube.com/watch?v=a9WC_eLmP30
+    Ted Talks: - https://www.youtube.com/watch?v=GwRzjFQa_Og
+               - https://www.youtube.com/watch?v=3E7hkPZ-HTk
+    Short Movies: - https://www.youtube.com/watch?v=B6uuIHpFkuo
+                  - https://www.youtube.com/watch?v=ZVpB8b0cYLY
+                  - https://www.youtube.com/watch?v=DKxCvAc-DvU
+
+    User can give thumbs up or down if the video appeals to him. The videos that the user liked will be saved in a list in the database.
+    

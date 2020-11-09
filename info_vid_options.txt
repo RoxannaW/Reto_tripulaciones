@@ -1,0 +1,47 @@
+{ 
+    
+'vid_id': 
+['tAUf7aajBWE',
+  '6XpGQ2EhfUQ',
+  'inpok4MKVLM',
+  'X7iBnp8T6nY',
+  'OCorElLKFQE',
+  'iz-IXKMF0G4',
+  'a9WC_eLmP30',
+  'GwRzjFQa_Og',
+  '3E7hkPZ-HTk',
+  'B6uuIHpFkuo',
+  'ZVpB8b0cYLY',
+  'DKxCvAc-DvU'],
+
+ 'title':
+ ['Yoga at Your Desk',
+  '5-Minute Squat Workout for a Tight Booty',
+  '5-Minute Meditation You Can Do Anywhere',
+  'GUIDED MEDITATION - Deep Relaxation',
+  '5 Minute Guided Meditation for Gratitude / Mindful Movement',
+  '10 Minute Standing Stretches | Pilates at Your Desk',
+  'Relaxing Stretching Workout for Stiff Muscles & Stress Relief - Easy Stretches to Do at Work',
+  'The Magic of Not Giving a F*** | Sarah Knight | TEDxCoconutGrove',
+  'Quit social media | Dr. Cal Newport | TEDxTysons',
+  'Purl | Pixar SparkShorts',
+  'THE PASSENGER || Animated short film || Horror film || CGI Animation',
+  '🤣 Funniest 🐶 Dogs and 😻 Cats - Awesome Funny  Animals Videos 😇'],
+
+ 'url_pic': 
+ ['https://i.ytimg.com/vi/tAUf7aajBWE/default.jpg',
+  'https://i.ytimg.com/vi/6XpGQ2EhfUQ/default.jpg',
+  'https://i.ytimg.com/vi/inpok4MKVLM/default.jpg',
+  'https://i.ytimg.com/vi/X7iBnp8T6nY/default.jpg',
+  'https://i.ytimg.com/vi/OCorElLKFQE/default.jpg',
+  'https://i.ytimg.com/vi/iz-IXKMF0G4/default.jpg',
+  'https://i.ytimg.com/vi/a9WC_eLmP30/default.jpg',
+  'https://i.ytimg.com/vi/GwRzjFQa_Og/default.jpg',
+  'https://i.ytimg.com/vi/3E7hkPZ-HTk/default.jpg',
+  'https://i.ytimg.com/vi/B6uuIHpFkuo/default.jpg',
+  'https://i.ytimg.com/vi/ZVpB8b0cYLY/default.jpg',
+  'https://i.ytimg.com/vi/DKxCvAc-DvU/default.jpg']
+  }
+
+
+
